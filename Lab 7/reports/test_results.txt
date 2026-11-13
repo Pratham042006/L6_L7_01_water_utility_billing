@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-8.4.2, pluggy-1.6.0 -- /Users/prathammudakavi/Documents/pes_sem_5/se/l6/.venv/bin/python3
+cachedir: .pytest_cache
+hypothesis profile 'default'
+rootdir: /Users/prathammudakavi/Documents/pes_sem_5/se/l6/L6_L7_01_water_utility_billing/Lab 7
+plugins: hypothesis-6.141.1
+collecting ... collected 8 items
+
+test_processor.py::test_sanitize_meter_id_no_crash PASSED                [ 12%]
+test_processor.py::test_parse_consumption_readings_safe PASSED           [ 25%]
+test_processor.py::test_format_billing_summary_safe PASSED               [ 37%]
+test_processor.py::test_sanitize_meter_id_clean_input PASSED             [ 50%]
+test_processor.py::test_parse_consumption_readings_roundtrip PASSED      [ 62%]
+test_processor.py::test_format_billing_summary_valid_record PASSED       [ 75%]
+test_processor.py::test_main_cli_execution PASSED                        [ 87%]
+test_processor.py::test_processor_main_module_execution PASSED           [100%]
+
+============================== 8 passed in 0.37s ===============================
